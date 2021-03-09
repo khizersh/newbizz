@@ -1,0 +1,22 @@
+.top-icon {
+  background-color: black;
+  color: white;
+}
+
+.font-size {
+  font-size: 13px;
+}
+
+.list-inline-item {
+  display: inline-block;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline-item i {
+  font-size: 15px;
+  padding-left: 10px;
+}
