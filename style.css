@@ -20,3 +20,65 @@
   font-size: 15px;
   padding-left: 10px;
 }
+header.main-header {
+  color: white;
+  background: #014073;
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.logo h2 span {
+  padding: 5px 7px;
+  color: #ff9d34;
+}
+
+.logo h2 {
+  padding: 31px 15px;
+  font-size: 30px;
+}
+
+.mainNav ul li a {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  padding: 31px 15px;
+  text-transform: capitalize;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.sub-menu {
+  position: absolute;
+  background: aqua;
+  z-index: 999;
+  top: 120%;
+  padding: 10px;
+  display: none;
+}
+
+.myDIV:hover + .sub-menu {
+  display: block;
+  color: red;
+}
+
+.mainNav ul li a:hover .sub-menu {
+  background: rgb(25, 253, 253);
+}
+
+.sub-menu li {
+  list-style: none;
+  padding: 10px;
+}
+
+.test:hover > .sub-menu {
+  display: block !important;
+}
+
+.test:hover {
+  color: black;
+}
+
+.aaa {
+  background-color: blueviolet;
+}
