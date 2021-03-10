@@ -48,37 +48,110 @@ header.main-header {
   line-height: normal;
 }
 
-.sub-menu {
+.sub-menu-page {
   position: absolute;
   background: aqua;
   z-index: 999;
-  top: 120%;
+  top: 90%;
   padding: 10px;
-  display: none;
+  width: 7rem;
 }
 
-.myDIV:hover + .sub-menu {
-  display: block;
-  color: red;
+.hide {
+  visibility: hidden;
+  /* visibility: visible; */
 }
 
-.mainNav ul li a:hover .sub-menu {
-  background: rgb(25, 253, 253);
+.myDIV:hover + .hide {
+  transition: all 0.6s;
+  visibility: visible;
+  background: #014073;
 }
 
-.sub-menu li {
+.myDIV:hover {
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.4s;
+  color: #ff9d34 !important;
+}
+
+.sub-menu-page li {
+  float: left;
+  line-height: 2rem;
+}
+
+.link:hover {
+  transition: all 0.3s;
+  cursor: pointer;
+  color: #ff9d34;
+  visibility: visible;
+}
+.hide:hover {
+  visibility: visible;
+  background: #014073;
+  transition: all 0.3s;
+  cursor: pointer;
+  visibility: visible;
   list-style: none;
-  padding: 10px;
 }
 
-.test:hover > .sub-menu {
-  display: block !important;
+a:hover {
+  transition: all 0.3s;
+  text-decoration: none !important;
+  color: #ff9d34 !important;
 }
 
-.test:hover {
-  color: black;
+.banner-div {
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #dee2e6;
 }
 
-.aaa {
-  background-color: blueviolet;
+.display-4 {
+  margin-top: 10rem;
+  line-height: 1.2;
+  color: #014073;
+}
+.btnc {
+  background-color: #ff9d34;
+  color: whitesmoke;
+}
+
+.wt-section {
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
+  float: left;
+  width: 100%;
+  background: #fff;
+}
+
+.our-ser {
+  font-weight: bolder;
+  color: #014073;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.card-border {
+  border: 1px solid #dee2e6 !important;
+}
+
+.rounded-md {
+  border-radius: 0.625rem;
+}
+
+.all-type {
+  height: 50vh;
+}
+
+.bg-grey {
+  background-color: #dee2e6 !important;
+}
+
+.color-orange {
+  color: #ff9d34;
 }
