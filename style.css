@@ -155,3 +155,70 @@ a:hover {
 .color-orange {
   color: #ff9d34;
 }
+
+.bg-blue {
+  background-color: #014073;
+}
+
+.consultancy-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  float: left;
+  color: #dee2e6;
+  width: 100%;
+  background: #014073;
+}
+
+.woman-section {
+  padding-top: 6.25rem;
+  float: left;
+  width: 100%;
+  background: #fff;
+}
+
+.border-quote-btn {
+  border: 1px solid white;
+  color: #dee2e6;
+}
+
+.border-quote-btn:hover {
+  background-color: #dee2e6;
+  color: black !important;
+}
+
+.img-con {
+  background-color: white;
+}
+
+.foot-div ul li {
+  text-decoration: none;
+  list-style: none;
+  float: left;
+  line-height: 2.5rem;
+  width: 100%;
+}
+
+.social-icons ul li {
+  text-decoration: none;
+  list-style: none;
+  float: left;
+  line-height: 2.5rem;
+}
+
+.social-icons ul {
+  margin-left: -37px !important;
+}
+.foot-div ul {
+  margin-left: -37px !important;
+}
+
+.foot-rights {
+  line-height: 7px;
+}
+
+.foot-div ul li:hover,
+.social-icons ul li:hover {
+  transition: all 0.3s;
+  cursor: pointer;
+  color: #ff9d34;
+}
